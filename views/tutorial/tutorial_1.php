@@ -7,6 +7,9 @@
     <title>Variables pseint</title>
 </head>
 <body>
-    <h1>Variables</h1>
+<div class="wrapper">
+        <h1>Titulo generico</h1>
+        <p>Inserte desafio o descripcion del curso</p>
+    </div>
 </body>
 </html>
