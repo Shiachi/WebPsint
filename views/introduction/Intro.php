@@ -12,6 +12,8 @@
     <h3>Paso 1</h3>
     <p>Para comenzar descarga la app del siguiente <a href="https://pseint.sourceforge.net/?page=descargas.php">link</a><p>
     <br>
-    
+    <h3>Paso 2</h3>
+    <img src="Resources/seleccionar descarga.png">
+    <p>Seleccionar la descarga para windows</p>
 </body>
 </html>
