@@ -1,5 +1,73 @@
-<?php 
-//include_once "views\introduction\Intro.php" ;
-include_once "views/tutorial/Plantilla.php" ;
+<?php
+    //link no cambia es la base
+    $link="https://www.youtube.com/embed/";
 
+    //code cambia al codigo de la pagina de youtube
+    $code="0RV-yphnuMs";
+
+    //path cambia el codigo php que se muestra
+    $path="plantilla.php";
+
+
+    //si recibe un post
+    if(isset($_POST['btn_next']))
+    {
+        
+        $id = $_POST["btn_next"];
+    }
+    else
+    {
+        $id=-1;
+    }
+    
+
+    //logica
+    if($id=="1")
+    {
+        $code="FvibfpSVFBw";
+        $path="Intro.php";
+    }
+    if($id=="2")
+    {
+        $code="";
+        $path="";
+    }
+
+    //reseteo de la pagina
+    if($id>13)
+    {
+        $id = 0;
+    }
+
+    //link completo para mostrar el video, no cambia
+    $cLink=$link.$code;
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Style/tutorial.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="videowrapper">
+            <iframe  src=<?php echo $cLink;?> 
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <?php include_once "views/tutorial/".$path;?>
+
+    <!-- modificar -->
+    <form action="/WebPsint/" method="post">
+        <?php $id+=1;?>
+        <button value=<?php echo $id;?> name="btn_next">Continuar</button>
+    </form>
+    <!-- modificar -->
+
+</body>
+</html>
