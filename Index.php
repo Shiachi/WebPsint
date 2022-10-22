@@ -1,12 +1,15 @@
 <?php
+    //tutoriales
+    //https://www.youtube.com/watch?v=FvibfpSVFBw&list=PLAzlSdU-KYwXllXcUCW-BylQZemcDV798
+
     //link no cambia es la base
     $link="https://www.youtube.com/embed/";
 
     //code cambia al codigo de la pagina de youtube
-    $code="0RV-yphnuMs";
+    $code="FvibfpSVFBw";
 
     //path cambia el codigo php que se muestra
-    $path="plantilla.php";
+    $path="Intro.php";
 
 
     //si recibe un post
@@ -17,20 +20,20 @@
     }
     else
     {
-        $id=-1;
+        $id=0;
     }
     
 
     //logica
     if($id=="1")
     {
-        $code="FvibfpSVFBw";
-        $path="Intro.php";
+        $code="Lmhb1KoBeHk";
+        $path="tutorial_1.php";
     }
     if($id=="2")
     {
-        $code="";
-        $path="";
+        $code="MMnAwnOb4a8";
+        $path="tutorial_2.php";
     }
 
     //reseteo de la pagina
@@ -48,7 +51,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curso PseInt</title>
     
     <link rel="stylesheet" href="Style/tutorial.css">
     

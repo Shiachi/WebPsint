@@ -8,8 +8,8 @@
 </head>
 <body>
 <div class="wrapper">
-        <h1>Titulo generico</h1>
-        <p>Inserte desafio o descripcion del curso</p>
+        <h1>Instalacion PseInt</h1>
+        <p>Para continuar el tutorial debes instalar pseint es fundamental para contuniar el tutorial</p>
     </div>
 </body>
 </html>
