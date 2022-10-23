@@ -11,7 +11,9 @@
         <h1>Asignar un valor a variables</h1>
         <p>Para otorgarle un valor a una variable en el Código pseint ocupa el signo "<-"</p>
         <p>Ejemplo: "num<-4 - 5;" num es la variable y la operación 4-5 son los datos almacenados.</p>
+        <h2>Desafio</h2>
         <p>Con el comando "Escribir" obtenga el valor de la variable   </p>
+        <p id="response">Respuesta: la consola muestra -1</p>
     </div>
 </body>
 </html>
