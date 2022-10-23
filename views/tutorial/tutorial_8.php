@@ -15,7 +15,7 @@
         que tu decidas, la primera variable debe tener un valor de 8
         y la segunda un valor de 16 y deberas motrar por consola el numero mayor
         </p>
-        <p>respuesta consola= 16</p>
+        <p id="response">respuesta consola= 16</p>
     </div>
 </body>
 </html>
