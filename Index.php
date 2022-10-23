@@ -2,6 +2,8 @@
     //tutoriales
     //https://www.youtube.com/watch?v=FvibfpSVFBw&list=PLAzlSdU-KYwXllXcUCW-BylQZemcDV798
 
+    
+
     //link no cambia es la base
     $link="https://www.youtube.com/embed/";
 
@@ -10,16 +12,22 @@
 
     //path cambia el codigo php que se muestra
     $path="Intro.php";
-
-
+    $btnBoool = "hidden";
+    
     //si recibe un post
-    if(isset($_POST['btn_next']))
+    if( isset($_POST['btn_next']) )
     {
-        
-        $id = $_POST["btn_next"];
+        //si la pagina ha recibido un post el botton sera visible
+        $id=$_POST['btn_next']+1;
+    }
+    else if( isset($_POST['btn_back']) )
+    {
+        $id=$_POST['btn_back']-1;
     }
     else
     {
+        //si la pagina no ha recibido un post ya no sera visible
+        $btnBoool = "hidden"; 
         $id=0;
     }
     
@@ -64,11 +72,10 @@
         </div>
     </div>
     <?php include_once "views/tutorial/".$path;?>
-
     <!-- modificar -->
     <form action="/WebPsint/" method="post">
-        <?php $id+=1;?>
-        <button value=<?php echo $id;?> name="btn_next">Continuar</button>
+        <button type="submit" value=<?php echo $id;?> name="btn_back">Anterior</button>
+        <button type="submit" value=<?php echo $id;?> name="btn_next">Continuar</button>
     </form>
     <!-- modificar -->
 
