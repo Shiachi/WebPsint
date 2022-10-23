@@ -24,8 +24,57 @@
     width: 100%;
 }
 
+.buttonSection
+{
+    
+}
+
 body
 {
     background-image: url('../resources/background2.png');
+    background-size: contain;
+    color: rgb(128, 128, 128);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+h1
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 60%;
+    border: 2px rgb(128, 128, 128) solid;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 20);
+}
+
+p 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+}
+
+button
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 45px;
+    font-size:25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(128, 128, 128);
+    border: 2px rgb(128, 128, 128) solid;
+    border-radius: 20px;
+}
+
+h2
+{
     color: rgb(128, 128, 128);
 }
+
