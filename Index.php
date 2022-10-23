@@ -134,7 +134,7 @@
     
 </head>
 <body>
-    <?php include_once "views/Navegacion/side.php"?>
+    <?php include_once "views/Navegacion/Side.php"?>
     <div class="wrapper">
         <div class="videowrapper">
             <iframe  src=<?php echo $cLink;?> 
