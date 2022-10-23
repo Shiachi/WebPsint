@@ -13,7 +13,10 @@
         de programación basado en pseudocódigo. El pseudocódigo 
         es una descripción informal de alto nivel de un algoritmo, 
         que manteniendo las convenciones estructurales de un lenguaje 
-        de programación está diseñado para la lectura humana</p>
+        de programación. Está diseñado para la lectura humana.</p>
+        <h2>Desafio</h2>
+        <p>Completa el tutoria para ampliar tus conocimientos</p>
     </div>
+
 </body>
 </html>
