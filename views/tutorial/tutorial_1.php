@@ -9,7 +9,7 @@
 <body>
 <div class="wrapper">
         <h1>Instalacion PseInt</h1>
-        <p>Para continuar el tutorial debes instalar pseint es fundamental para contuniar el tutorial</p>
+        <p>Para continuar el tutorial debes instalar PseInt, es fundamental para completar el resto.</p>
     </div>
 </body>
 </html>
