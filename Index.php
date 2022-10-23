@@ -43,6 +43,31 @@
         $code="MMnAwnOb4a8";
         $path="tutorial_2.php";
     }
+    if($id=="3")
+    {
+        $code="ZXvfPvti-4M";
+        $path="tutorial_3.php";
+    }
+    if($id=="4")
+    {
+        $code="aja-0hYWEFQ";
+        $path="tutorial_4.php";
+    }
+    if($id=="5")
+    {
+        $code="nJoEeniIvgU";
+        $path="tutorial_5.php";
+    }
+    if($id=="6")
+    {
+        $code="b-DhIwRQ9nk";
+        $path="tutorial_6.php";
+    }
+    if($id=="7")
+    {
+        $code="UrfaBgj8tg4";
+        $path="tutorial_7.php";
+    }
 
     //reseteo de la pagina
     if($id>13)
