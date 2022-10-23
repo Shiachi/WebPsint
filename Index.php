@@ -68,11 +68,10 @@
         $code="UrfaBgj8tg4";
         $path="tutorial_7.php";
     }
-
-    //reseteo de la pagina
-    if($id>13)
+    if($id=="8")
     {
-        $id = 0;
+        $code="fy2wA9mSitU";
+        $path="tutorial_8.php";
     }
 
     //link completo para mostrar el video, no cambia
