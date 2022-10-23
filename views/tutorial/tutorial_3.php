@@ -9,6 +9,8 @@
 <body>
 <div class="wrapper">
         <h1>Primer algoritmo</h1>
+        <p>Un algortmo es una secuencia de pasos fin</p>
+        <h2>Desafio</h2>
         <p>Realizar un pequeño algoritmo con el objetivo de que este imprima su nombre con la función Escribir además de visualizar el diagrama de flujo de este una vez ejecutado</p>
     </div>
 </body>
