@@ -116,6 +116,7 @@
     if( $id == "0" )
     {
         $btnBool = "visibility:hidden"; 
+
     }
 
     //link completo para mostrar el video, no cambia
