@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="wrapper">
-        <h1>Comando Mientras</h1>
+        <h1>Comando Repetir</h1>
         <p>
             Este comando es muy parecido al anterior pero la expresion
             logica va al final lograndose ejecutar al menos una vez antes
@@ -25,5 +25,6 @@
             salir consola muestra el programa finalizo correctamente<br>
         </p>
         <p id="response">Respuesta: la consola mostrara todo lo que escribas menos salir que finaliza el bucle</p>
+</div>
 </body>
 </html>

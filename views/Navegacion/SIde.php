@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <div class="scrollBar">
     <div id="sidemenu" class="menu-collapsed">
         <!-- Header -->
         <div id="header">
@@ -117,6 +118,7 @@
 
         <div class="item separator"></div>
         </div>
+    </div>
     </div>
     <script>
         const btn = document.querySelector('#menu-btn');

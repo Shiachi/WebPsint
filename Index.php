@@ -96,12 +96,12 @@
     }
     if( $id == "12" )
     {
-        $code="";
+        $code="cGevqK3hVZQ";
         $path="tutorial_12.php";
     }
     if( $id == "13" )
     {
-        $code="";
+        $code="KeDYn_td1ow";
         $path="tutorial_13.php";
         $btnBool2 ="visibility:hidden";
     }
@@ -109,6 +109,7 @@
     {
         $id=13;
     }
+    
     if( $id < "0" )
     {
         $id=0;
@@ -116,8 +117,8 @@
     if( $id == "0" )
     {
         $btnBool = "visibility:hidden"; 
-
     }
+    
 
     //link completo para mostrar el video, no cambia
     $cLink=$link.$code;
@@ -147,7 +148,7 @@
         <table>
             <tr>
                 <td id="td1"><button style =<?php echo $btnBool;?> type="submit" value=<?php echo $id;?> name="btn_back">Anterior</button> </td>
-                <td id="td2"><h4>Tutorial <?php echo $id?></h4> </td>
+                <td id="td2"><h4>Capitulo <?php echo $id?></h4> </td>
                 <td id="td3"><button style =<?php echo $btnBool2;?> type="submit" value=<?php echo $id;?> name="btn_next">Continuar</button> </td>
             </tr>
         </table> 
