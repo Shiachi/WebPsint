@@ -14,6 +14,7 @@
         <p>num <- 4 - 5; </p>
         <p>'num' es la variable y la operación '4 - 5' son los datos almacenados.</p>
         <p>Utilice el comando "Escribir" y obtenga el valor de la variable.</p>
+        <p id="response">Respuesta: la consola muestra -1</p>
     </div>
 </body>
 </html>
