@@ -29,5 +29,6 @@
             etc...
         </p>
         <p id="response">Respuesta: la consola mostrara del dia 1 al dia 365</p>
+</div>
 </body>
 </html>
