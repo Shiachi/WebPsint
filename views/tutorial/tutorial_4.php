@@ -9,13 +9,13 @@
 <body>
 <div class="wrapper">
         <h1>Tipos de datos</h1>
-        <p>Para almacenar datos existen múltiples tipos de variables, pero los 3 tipos más básicos son:</p>
-        <h3>NUMEROS</h3>
-        <p>Como su nombre lo indica esta solo es capaz de almacenar números con el objetivo de hacer operaciones matemáticas</p>
-        <h3>Datos lógicos</h3>
-        <p>Esta solo alamcena verdareo (1, encendido) o falso (0, apagado) </p>
-        <h3>Caracteres</h3>
-        <p>Esta puede almacenar todos los tipos de datos, pero quitándole funcionalidades, por ejemplo, si alacenas números aquí estos no se podrán utilizar para operaciones matemáticas </p>
+        <p>Para almacenar datos existen múltiples variables, los tres más básicos son:</p>
+        <h3>1. Números</h3>
+        <p>Como su nombre lo indica, esta solo es capaz de almacenar números con el objetivo de hacer operaciones matemáticas.</p>
+        <h3>2. Datos lógicos</h3>
+        <p>Aquí solo se almacenan dos variables: Verdadero/True (1, encendido) o Falso/False (0, apagado). </p>
+        <h3>3. Caracteres</h3>
+        <p>Se pueden almacenar todos los tipos de datos, pero quitándole funcionalidades. Por ejemplo, si almacenas números aquí, estos no se podrán utilizar para operaciones matemáticas. </p>
     </div>
 </body>
 </html>

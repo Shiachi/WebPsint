@@ -9,7 +9,7 @@
 <body>
 <div class="wrapper">
         <h1>Variables</h1>
-        <p>Una variable es un espacio de almacenamiento reservado en el dispositivo el cual contiene datos, se llamaanvariables porque estos datos se pueden modificar</p>
+        <p>Una variable es un espacio de almacenamiento reservado en el dispositivo, el cual contiene datos. Se les llaman variables, porque estos datos se pueden modificar.</p>
     </div>
 </body>
 </html>

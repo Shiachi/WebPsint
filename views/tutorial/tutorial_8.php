@@ -9,12 +9,11 @@
 <body>
 <div class="wrapper">
         <h1>Comando Si - Entonces</h1>
-        <p>Este comando nos permite comparar con expresiones logicas y tener un resultado especifico</p>
-        <h2>Desafio</h2>
-        <p>Crea dos variables de tipo numerica con el nombre
-        que tu decidas, la primera variable debe tener un valor de 8
-        y la segunda un valor de 16 y deberas motrar por consola el numero mayor
-        </p>
+        <p>Este comando nos permite comparar con expresiones lógicas, además de tener un resultado específico.</p>
+        <h2>Desafío:</h2>
+        <p>Crea dos variables de tipo númerico con el nombre que tú decidas.</p>
+        <p>La primera variable debe tener un valor de 8 y la segunda un valor de 16.</p>
+        <p>Mostrar por consola, qué número es mayor.</p>
         <p id="response">respuesta consola= 16</p>
     </div>
 </body>

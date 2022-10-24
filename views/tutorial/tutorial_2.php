@@ -9,7 +9,7 @@
 <body>
 <div class="wrapper">
         <h1>Interface PseInt</h1>
-        <p>Entender el entorno donde se desarrolla es un paso escencial para facilitar tareas</p>
+        <p>Entender el entorno donde se desarrolla es un paso escencial para facilitar tareas.</p>
     </div>
 </body>
 </html>
