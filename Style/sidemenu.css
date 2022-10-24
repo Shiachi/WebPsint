@@ -2,7 +2,7 @@
     --width: 300px;
     --padding: 10px;
     --bgcolor: rgb(9, 8, 9);
-    --hovercolor: rgb(23,23,23);
+    --hovercolor: rgb(159, 158, 159);
     --width-collapsed: 50px; 
 }
 body{
@@ -11,26 +11,26 @@ body{
     font-size: 18px;
     padding: 0;
     margin: 0;
-    margin-left: var(--width-collapsed);
+    margin-right: var(--width-collapsed);
 }
 .body-expanded{
-    margin-left: var(--width);
+    margin-right: var(--width);
 }
 #main-container{
-    color: aliceblue;
+    color: rgb(230, 225, 84);
 }
 
 #sidemenu{
     background-color: var(--bgcolor);
-    color: aliceblue;
+    color: rgb(230, 225, 84);
     position: fixed;
     height: 100%;
-    left: 0;
+    right: 0;
     top: 0;
 }
 
 #sidemenu a{
-    color: aliceblue;
+    color: rgb(104, 146, 220);
     text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ body{
 }
 
 #sidemenu #header #menu-btn .btn-hamburger{
-    background-color: aliceblue;
+    background-color: rgb(159, 158, 159);
     width: 100%;
     height: 2px;
     margin: 5px 0;
