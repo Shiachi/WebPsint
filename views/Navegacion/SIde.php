@@ -26,92 +26,91 @@
             <div id="name"></div>
         </div>
         <!-- Items -->
+        <form method="post">
         <div id="menu-items">
             <div class="item">
-                <button id="btn-item" value=3>
-                <a href="#">
+            <button type="submit" class="btnItem" value= "0"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 0</span></div>
-                </a>
-                </button>
+            </button>
             </div>
             <div class="item">
-                <a href="views/tutorial/tutorial_1.php">
+            <button type="submit" class="btnItem" value= "1"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 1</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "2"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 2</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "3"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 3</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "4"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 4</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "5"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 5</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "6"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 6</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "7"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 7</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "8"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 8</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "9"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 9</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "10"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 10</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "11"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 11</span></div>
-                </a>
+            </button>    
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "12"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 12</span></div>
-                </a>
+            </button>
             </div>
             <div class="item">
-                <a href="#">
+            <button type="submit" value= "13"  name="btnItems" id="btnItems">
                     <div class="icon"><img src="resources/code.png" alt=""></div>
                     <div class="title"><span>Curso 13</span></div>
-                </a>
+            </button>
             </div>
 
 

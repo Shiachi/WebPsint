@@ -30,6 +30,12 @@
         $id=$_POST['btn_back']-1;
         $btnBool ="visibility:visible";
     }
+    else if( isset($_POST['btnItems']) )
+    {
+        $itemNum=$_POST['btnItems'];
+        echo number_format($itemNum);
+        $id=$itemNum;
+    }
     else
     {
         //si la pagina no ha recibido un post ya no sera visible

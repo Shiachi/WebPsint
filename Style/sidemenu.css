@@ -31,7 +31,7 @@ body{
     -webkit-scrollbar: 10px;
 }
 
-#sidemenu a{
+#sidemenu button{
     color: rgb(104, 146, 220);
     text-decoration: none;
 }
@@ -113,10 +113,10 @@ body{
     overflow: hidden;
     display: inline-block;
 } 
-#sidemenu #menu-items .item a{ 
+#sidemenu #menu-items .item button{ 
     display: block;
 } 
-#sidemenu #menu-items .item a:hover{ 
+#sidemenu #menu-items .item button:hover{ 
     background-color: var(--hovercolor);
 } 
 #sidemenu #menu-items .item .icon{ 
@@ -193,4 +193,14 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(230, 225, 84);
+}
+#btnItems{
+    width: 100%;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 0;
+    font-size:25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(128, 128, 128);
+    border: 0 rgb(128, 128, 128) solid;
 }
