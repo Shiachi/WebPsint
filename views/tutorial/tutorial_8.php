@@ -14,7 +14,7 @@
         <p>Crea dos variables de tipo númerico con el nombre que tú decidas.</p>
         <p>La primera variable debe tener un valor de 8 y la segunda un valor de 16.</p>
         <p>Mostrar por consola, qué número es mayor.</p>
-        <p id="response">respuesta consola= 16</p>
+        <p id="response">Respuesta consola = 16</p>
     </div>
 </body>
 </html>

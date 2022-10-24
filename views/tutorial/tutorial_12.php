@@ -10,8 +10,8 @@
 <div class="wrapper">
         <h1>Comando Para</h1>
         <p>
-            Este comando al igual que los anteriores es un bucle limitado
-            muy util.
+            Este comando, al igual que los anteriores, es un bucle limitado
+            muy útil.
         </p>
 </div>
 </body>
