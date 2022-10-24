@@ -9,7 +9,7 @@
 <body>
 <div class="wrapper">
         <h1>Operadores Relacionales</h1>
-        <p>Estos son los símbolos que necesita la computadora para entender si un número es mayor, igual o menor que otro</p>
+        <p>Estos son los símbolos que necesita el algortimo para entender si un número es mayor que (>), igual (=) o menor que (<) otro número.</p>
     </div>
 </body>
 </html>

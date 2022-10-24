@@ -8,10 +8,12 @@
 </head>
 <body>
 <div class="wrapper">
-        <h1>Asignar un valor a variables</h1>
-        <p>Para otorgarle un valor a una variable en el Código pseint ocupa el signo "<-"</p>
-        <p>Ejemplo: "num<-4 - 5;" num es la variable y la operación 4-5 son los datos almacenados.</p>
-        <p>Con el comando "Escribir" obtenga el valor de la variable   </p>
+        <h1>Asignar valor a las variables</h1>
+        <p>Para otorgarle valor a una variable, en el Código PSeInt, ocupamos el signo "<-".</p>
+        <p>Ejemplo: </p>
+        <p>num <- 4 - 5; </p>
+        <p>'num' es la variable y la operación '4 - 5' son los datos almacenados.</p>
+        <p>Utilice el comando "Escribir" y obtenga el valor de la variable.</p>
     </div>
 </body>
 </html>
