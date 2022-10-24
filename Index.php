@@ -81,28 +81,28 @@
     }
     if( $id=="9" )
     {
-        $code="";
-        $path="";
+        $code="BgEfKATxJSA";
+        $path="tutorial_9.php";
     }
     if( $id == "10" )
     {
-        $code="";
-        $path="";
+        $code="HgUW-FVbr5s";
+        $path="tutorial_10.php";
     }
     if( $id == "11" )
     {
-        $code="";
-        $path="";
+        $code="cOINU79hxQc";
+        $path="tutorial_11.php";
     }
     if( $id == "12" )
     {
         $code="";
-        $path="";
+        $path="tutorial_12.php";
     }
     if( $id == "13" )
     {
         $code="";
-        $path="";
+        $path="tutorial_13.php";
         $btnBool2 ="visibility:hidden";
     }
     if( $id > "13" )
